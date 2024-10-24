@@ -8,7 +8,7 @@
     "AzureWebJobs.eventhub1.Disabled": true,
     "AzureWebJobs.blob1.Disabled": true,
     "AzureWebJobs.queue1.Disabled": true,
-    "AzureWebJobs.sbqueue.Disabled": true,
+    "AzureWebJobs.sbqueue1.Disabled": true,
     "AzureWebJobs.sbtopic1.Disabled": true,
     "AzureWebJobs.timer1.Disabled": true
   }

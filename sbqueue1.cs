@@ -6,16 +6,16 @@ using Microsoft.Extensions.Logging;
 
 namespace FunctionApp17
 {
-    public class sbqueue
+    public class sbqueue1
     {
-        private readonly ILogger<sbqueue> _logger;
+        private readonly ILogger<sbqueue1> _logger;
 
-        public sbqueue(ILogger<sbqueue> logger)
+        public sbqueue1(ILogger<sbqueue1> logger)
         {
             _logger = logger;
         }
 
-        [Function(nameof(sbqueue))]
+        [Function(nameof(sbqueue1))]
         public async Task Run(
             [ServiceBusTrigger("myqueue", Connection = "")]
             ServiceBusReceivedMessage message,
